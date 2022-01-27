@@ -1,1 +1,21 @@
-// only comments
+$font-size: 24px;
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  margin: 10px 10px 0 auto;
+  font-size: $font-size;
+}
+
+a {
+  padding: 20px 10px;
+}
+
+.prompt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

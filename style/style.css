@@ -1,3 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
 
+.links {
+  margin: 10px 10px 0 auto;
+  font-size: 24px;
+}
+
+a {
+  padding: 20px 10px;
+}
+
+.prompt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */
