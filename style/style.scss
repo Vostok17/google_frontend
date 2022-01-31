@@ -1,13 +1,27 @@
-$font-size: 24px;
+$link-font-size: 1.5rem;
+$font-size: 1rem;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
 
 body {
   display: flex;
   flex-direction: column;
+  background-image: url('../assets/Google wallpaper.png');
+  background-size: cover;
 }
 
 .links {
   margin: 10px 10px 0 auto;
-  font-size: $font-size;
+  font-size: $link-font-size;
+  min-height: 10%;
 }
 
 a {
@@ -18,4 +32,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 80%;
+}
+
+input[name='q'] {
+  min-width: 30vw;
+  padding: 10px;
+  font-size: $font-size;
+  border-radius: 50px;
 }
