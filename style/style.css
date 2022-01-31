@@ -1,11 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
+  background-image: url("../assets/Google wallpaper.png");
+  background-size: cover;
 }
 
 .links {
   margin: 10px 10px 0 auto;
-  font-size: 24px;
+  font-size: 1.5rem;
+  min-height: 10%;
 }
 
 a {
@@ -16,6 +29,14 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 80%;
+}
+
+input[name=q] {
+  min-width: 30vw;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
