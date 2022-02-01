@@ -45,21 +45,4 @@ input[name=q] {
   border: none;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-form label {
-  background-color: burlywood;
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  font-family: "Comic Sans MS", cursive;
-  padding-right: 10px;
-}
-form .field {
-  font-size: 1rem;
-  float: right;
-}
-
 /*# sourceMappingURL=style.css.map */
