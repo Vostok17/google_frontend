@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -16,13 +17,16 @@ body {
 }
 
 .links {
-  margin: 10px 10px 0 auto;
   font-size: 1.5rem;
   min-height: 10%;
+  margin: 45px 30px 0 auto;
 }
 
 a {
-  padding: 20px 10px;
+  padding: 10px 15px 13px;
+  background-color: burlywood;
+  border-radius: 20px;
+  margin-right: 20px;
 }
 
 .prompt {
@@ -33,10 +37,12 @@ a {
 }
 
 input[name=q] {
-  min-width: 30vw;
-  padding: 10px;
+  min-width: 35vw;
+  padding: 13px 20px;
   font-size: 1rem;
   border-radius: 50px;
+  outline: none;
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */
