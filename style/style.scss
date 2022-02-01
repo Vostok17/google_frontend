@@ -47,3 +47,22 @@ input[name='q'] {
   outline: none;
   border: none;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  label {
+    background-color: burlywood;
+    margin-bottom: 1rem;
+    font-size: $font-size;
+    font-family: 'Comic Sans MS', cursive;
+    padding-right: 10px;
+  }
+
+  .field {
+    font-size: $font-size;
+    float: right;
+  }
+}
