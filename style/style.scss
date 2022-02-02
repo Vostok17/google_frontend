@@ -1,6 +1,6 @@
 $link-font-size: 1.5rem;
 $font-size: 1rem;
-$field-font-family: 'Comic Sans MS', cursive;
+$form-font-family: 'Comic Sans MS', cursive;
 
 * {
   margin: 0;
@@ -47,4 +47,40 @@ input[name='q'] {
   border-radius: 50px;
   outline: none;
   border: none;
+}
+
+.field {
+  display: flex;
+  background-color: burlywood;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+
+  label,
+  input {
+    font-size: $font-size;
+    font-family: $form-font-family;
+  }
+
+  label {
+    margin-right: 1rem;
+  }
+
+  input {
+    margin-left: auto;
+    border-radius: 0.2rem;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  input[type='submit'] {
+    font-size: $font-size;
+    font-family: $form-font-family;
+    padding: 0.5rem 1rem;
+    margin: auto;
+    width: 6rem;
+  }
 }
