@@ -2,5 +2,13 @@
   "trailingComma": "all",
   "singleQuote": true,
   "arrowParens": "avoid",
-  "bracketSameLine": true
+  "bracketSameLine": true,
+  "overrides": [
+    {
+      "files": ["**/*.js"],
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
 }

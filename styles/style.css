@@ -35,7 +35,7 @@ a:hover {
 
 .prompt {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   min-height: 80%;
 }
@@ -78,6 +78,7 @@ input[name=q]:focus {
 form {
   display: flex;
   flex-direction: column;
+  margin-top: 15%;
 }
 form input[type=submit] {
   font-size: 1rem;
@@ -85,6 +86,29 @@ form input[type=submit] {
   padding: 0.5rem 1rem;
   margin: auto;
   width: 6rem;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+}
+.history div {
+  min-width: 35vw;
+  background-color: white;
+  padding: 13px 20px;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+}
+.history div:last-of-type {
+  border-radius: 0 0 10px 10px;
+}
+.history div:hover {
+  background-color: #dedede;
+}
+
+.adv-form {
+  margin-top: 12%;
 }
 
 /*# sourceMappingURL=style.css.map */
