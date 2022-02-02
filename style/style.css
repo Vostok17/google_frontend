@@ -45,4 +45,36 @@ input[name=q] {
   border: none;
 }
 
+.field {
+  display: flex;
+  background-color: burlywood;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+.field label,
+.field input {
+  font-size: 1rem;
+  font-family: "Comic Sans MS", cursive;
+}
+.field label {
+  margin-right: 1rem;
+}
+.field input {
+  margin-left: auto;
+  border-radius: 0.2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input[type=submit] {
+  font-size: 1rem;
+  font-family: "Comic Sans MS", cursive;
+  padding: 0.5rem 1rem;
+  margin: auto;
+  width: 6rem;
+}
+
 /*# sourceMappingURL=style.css.map */
