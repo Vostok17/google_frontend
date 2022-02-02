@@ -27,10 +27,15 @@ body {
 }
 
 a {
+  display: inline-block;
   padding: 10px 15px 13px;
   background-color: burlywood;
   border-radius: 20px;
   margin-right: 20px;
+
+  &:hover {
+    transform: rotate(15deg);
+  }
 }
 
 .prompt {
@@ -47,6 +52,10 @@ input[name='q'] {
   border-radius: 50px;
   outline: none;
   border: none;
+
+  &:focus {
+    border-radius: 10px 10px 0 0;
+  }
 }
 
 .field {
@@ -69,6 +78,10 @@ input[name='q'] {
   input {
     margin-left: auto;
     border-radius: 0.2rem;
+
+    &:focus {
+      outline-color: blueviolet;
+    }
   }
 }
 
