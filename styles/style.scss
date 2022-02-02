@@ -40,7 +40,7 @@ a {
 
 .prompt {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   min-height: 80%;
 }
@@ -88,6 +88,7 @@ input[name='q'] {
 form {
   display: flex;
   flex-direction: column;
+  margin-top: 15%;
 
   input[type='submit'] {
     font-size: $font-size;
@@ -96,4 +97,30 @@ form {
     margin: auto;
     width: 6rem;
   }
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+
+  div {
+    min-width: 35vw;
+    background-color: white;
+    padding: 13px 20px;
+    font-size: $font-size;
+    font-family: Arial, sans-serif;
+
+    &:last-of-type {
+      border-radius: 0 0 10px 10px;
+    }
+
+    &:hover {
+      background-color: #dedede;
+    }
+  }
+}
+
+.adv-form {
+  margin-top: 12%;
 }
