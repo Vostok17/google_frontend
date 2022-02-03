@@ -47,11 +47,13 @@ a {
 
 input[name='q'] {
   min-width: 35vw;
-  padding: 13px 20px;
+  padding: 13px 3rem;
   font-size: $font-size;
   border-radius: 50px;
   outline: none;
   border: none;
+  background: url('../assets/magnifying glass.png') no-repeat 1rem 50% white;
+  background-size: 1rem;
 
   &:focus {
     border-radius: 10px 10px 0 0;
@@ -106,10 +108,11 @@ form {
 
   div {
     min-width: 35vw;
-    background-color: white;
-    padding: 13px 20px;
+    padding: 13px 3rem;
     font-size: $font-size;
     font-family: Arial, sans-serif;
+    background: url('../assets/clock.png') no-repeat 1rem 50% white;
+    background-size: 1.2rem;
 
     &:last-of-type {
       border-radius: 0 0 10px 10px;
