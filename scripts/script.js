@@ -23,7 +23,9 @@ history.read = function () {
 };
 history.write = function () {
     for (let i = 0; i < maxHistoryLength; i++) {
-        localStorage.setItem(i.toString(), history[i]);
+        if (history[i] !== undefined) {
+            localStorage.setItem(i.toString(), history[i]);
+        }
     }
 };
 
